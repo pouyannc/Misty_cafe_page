@@ -1,44 +1,65 @@
+@font-face {
+  font-family: 'Eczar';
+  src: url('./fonts/Eczar-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: url('./fonts/DMSans-Regular.ttf');
+}
+
 *{
   box-sizing: border-box;
 }
 
 body {
+  color: black;
   margin: 0;
+  font-family: DMSans, Verdana, sans-serif;
+  background-color: rgb(216, 216, 216);
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px;
+  padding: 20px 40px 20px 40px;
   gap: 60px;
 }
 
-.header-left {
-  font-size: 24px;
+.title {
+  font-size: 60px;
+  font-family: Eczar, Verdana, sans-serif;
+  color: black;
+  cursor: pointer;
 }
 
 .header-right {
   display: flex;
   gap: 20px;
+  font-size: 24px;
 }
 
-
-
-
+.menu-button, .contact-button {
+  cursor: pointer;
+}
 
 .home {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 60px;
-  font-size: 36px;
+  gap: 40px;
+  font-size: 30px;
   text-align: center;
   padding: 0px 100px 0px 100px;
 }
 
 .home-image {
-  width: 600px;
+  width: 700px;
+  border-radius: 8px;
+  border-color: rgb(88, 88, 88);
+  border-width: 1px;
+  border-style: solid;
 }
 
 .about {

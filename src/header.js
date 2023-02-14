@@ -7,7 +7,7 @@ const headerDiv = () => {
 
   const title = document.createElement('div');
   title.className = 'title';
-  title.innerHTML = 'Misty Cafe';
+  title.innerHTML = 'Misty Café';
 
   const headerRight = document.createElement('div');
   headerRight.className = 'header-right';
