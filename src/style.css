@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  gap: 60px;
+}
+
+.header-left {
+  font-size: 24px;
+}
+
+.header-right {
+  display: flex;
+  gap: 20px;
+}
+
+
+
+
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  font-size: 36px;
+  text-align: center;
+  padding: 0px 100px 0px 100px;
+}
+
+.home-image {
+  width: 600px;
+}
+
+.about {
+  max-width: 600px;
+  min-width: 300px;
+}
