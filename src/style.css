@@ -16,7 +16,7 @@ body {
   color: black;
   margin: 0;
   font-family: DMSans, Verdana, sans-serif;
-  background-color: rgb(216, 216, 216);
+  background-color: rgb(221, 231, 231);
 }
 
 .header {
@@ -25,6 +25,11 @@ body {
   align-items: center;
   padding: 20px 40px 20px 40px;
   gap: 60px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: url('./images/pexels-lumn-167699.jpg') rgb(172, 203, 203);
+  background-size: cover;
+  background-position-y: 20%;
 }
 
 .title {
@@ -37,7 +42,7 @@ body {
 .header-right {
   display: flex;
   gap: 20px;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 .menu-button, .contact-button {
@@ -51,7 +56,7 @@ body {
   gap: 40px;
   font-size: 30px;
   text-align: center;
-  padding: 0px 100px 0px 100px;
+  padding: 20px 100px;
 }
 
 .home-image {
@@ -65,4 +70,56 @@ body {
 .about {
   max-width: 600px;
   min-width: 300px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 60px;
+  gap: 20px;
+}
+
+.tea-title, .coffee-title {
+  font-family: Eczar, Verdana, sans-serif;
+  font-size: 36px;
+  border-bottom: 6px ridge rgb(179, 208, 208);
+}
+
+.tea-name, .coffee-name {
+  width: 140px;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.tea-price, .coffee-price {
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.coffee-menu, .tea-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px 40px;
+  padding: 20px;
+}
+
+.coffee-image, .tea-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 60px;
+}
+
+.phone, .address {
+  display: flex;
+  align-items: center;
+  padding: 40px 140px;
+  font-size: 26px;
+  gap: 0 30px;
+  width: 600px;
+}
+
+.phone img, .address img {
+  width: 40px;
 }
